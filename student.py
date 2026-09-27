@@ -24,8 +24,8 @@ def find_student(roll_no):
             print("Name:", student["name"])
             print("Roll No:", student["roll_no"])
             return
-
-    print("Student not found.")
+        else:
+            print("Student not found.")
 
 # Main program
 add_student("Nandan", "101")
